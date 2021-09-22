@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+} 
+/**/
+body{
+    background-color: hsl(194, 66%, 81%);
+}
+
+h1{
+    color: #db8fa8;
+    padding-top: 30px;
+}
+/**/
+section {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    border: solid;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* header {
+    display: none; */
+/* } */
+
+/* #light{
+display: block;
+margin-right: auto;
+margin-left: auto;
+padding-top: 100px;
+} */
+
+/* #btn1,#btn2{
+   margin-left: 350px;
+   display: block;
+   margin-top: 2px;
+} */
