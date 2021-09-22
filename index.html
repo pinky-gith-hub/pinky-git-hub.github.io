@@ -10,16 +10,51 @@
 <!-------------Start the body part----------------->
 <body>
     <header>
-        <marquee behavior="alternate" direction="left">
-            <h1>Click The Toggle Button</h1>
-        </marquee>
+      <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#mywork">MyWork</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul> 
+      </nav>  
     </header>
-   <!------------This is the main content------------>
-    <section>
+   
+    <!------------This is the main content------------>
+   <section id="home">
+
+   </section>
+  
+   <!---------------------About Me------------------->
+    <article id="about">
         <div>
-            <img id="light1" src="images/lightOff.jpg" alt="">
-            <img id="light2" src="images/lightOff.jpg" alt="">
-            <img id="light3" src="images/lightOff.jpg" alt="">
+			<h2><u>About Me</u></h2>
+        </div>
+          <div class="my-text">
+            <img src="images/IMG_0442.JPG" alt="zannatulpic" class="my-img"/>
+              <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+             </p> 
+          </div>  
+        </div>
+    </article>
+   
+    <!------------------My Work Part------------------->
+    <section id="mywork">
+        <div>
+            <h2><u>My Work</u></h2>
+        </div>
+
+        <div>
+            <marquee behavior="alternate" direction="left">
+                 <h3>Click The Toggle Button</h3>
+            </marquee>
+        </div>
+    
+        <div>
+            <img class="light1" src="images/lightOff.jpg" alt="">
+            <img class="light2" src="images/lightOff.jpg" alt="">
+            <img class="light3" src="images/lightOff.jpg" alt="">
         </div>
     
         <div>
@@ -28,6 +63,15 @@
             <button id='toggle'>Toggle</button>    
         </div>
     </section>
+    <!-------------My contact Part----------------->
+    <footer id="contact">
+        <h2>Contact:</h2>
+        <p>Mobile Number: 0762......<br />
+            <a href="zannat12.fardous@gmail.com">zannat12.fardous@gmail.com</a></p>
+            <ul>
+                <li><a href="https://www.facebook.com/">Zannatul Fardous Pinky</a></li>
+            </ul>
+    </footer>
     
     <script src="script.js"></script>
 </body>

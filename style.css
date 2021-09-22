@@ -2,23 +2,89 @@
     margin: 0px;
     padding: 0px; 
 } 
-/**/
+
+/*Main body part*/
 body{
-    background-color: hsl(194, 66%, 81%);
+    background-image: url('images/myBackground.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
-h1{
-    color: #db8fa8;
-    padding-top: 30px;
+/*navbar section*/
+nav{
+    background-color: rgb(1, 1, 19);
+    text-align: center; 
+    padding: 20px;  
+    display: flex;
+    justify-content: flex-end;
 }
-/**/
-section {
-    width: 400px;
-    margin: auto;
+
+nav li {
+    display: inline;  
+    padding: 20px;
+  }
+
+nav a{
+      color: #fff;
+  }
+
+  nav a:hover {
+      color: rgb(0, 195, 255);
+  }
+
+/*About Me section*/
+#about h2 {
+    color: rgb(86, 204, 240);
     text-align: center;
-    padding: 100px;
+    padding: 50px; 
+}
+
+.my-text {
+   color: #fff;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+}
+
+.my-img {
+    border: solid black 1px;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+/*My work section*/
+#mywork {
+    width: 800px;
+    margin: 180px auto;
+    text-align: center;
+    padding: 10px;
     border: solid;
     background-color: hsl(0, 0%, 100%);
+}
+
+#mywork h2 {
+    color: rgb(77, 142, 240);
+}
+
+#mywork h3 {
+    color: #db8fa8;
+    padding: 10px
+}
+
+#toggle {
+    color: rgb(238, 228, 228);
+    background-color: rgb(10, 1, 1);
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/*Footer section*/
+#contact {
+    background-color: rgb(1, 1, 12);
+    height:100px;
+    color: #fff;
 }
 
 /* header {
