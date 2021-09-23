@@ -23,11 +23,11 @@ nav li {
   }
 
 nav a{
-      color: rgb(248, 240, 240);
+      color: rgb(195, 184, 241);
   }
 
   nav a:hover {
-      color: rgb(0, 195, 255);
+      color: rgb(241, 207, 207);
   }
 
 /*About Me section*/
@@ -43,11 +43,11 @@ nav a{
     text-align: center;
     padding: 10px;
     border: solid;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 4%, 5%);
 }
 
 .my-text {
-   color: rgb(20, 19, 19);
+   color: rgb(248, 241, 241);
     padding: 30px;
     font-size: 20px;
     display: flex;
@@ -58,6 +58,16 @@ nav a{
     margin: 10px;
     width: 200px;
     height: auto;
+}
+
+/*My vedio*/
+#my-vedio {
+    width: 800px;
+    margin: 200px auto;
+    text-align: center;
+    padding: 10px;
+    border: solid;
+    background-color: hsl(0, 0%, 100%);
 }
 
 /*My work section*/
