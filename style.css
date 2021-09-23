@@ -121,8 +121,8 @@ nav a{
 /*Footer section*/
 #contact {
     background-color: rgb(1, 1, 12);
-    height:100px;
-    color: #fff;
+    height:40px;
+    color: rgb(240, 233, 233);
 }
 
 /* header {
