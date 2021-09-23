@@ -30,6 +30,12 @@ nav a{
       color: rgb(241, 207, 207);
   }
 
+#home h1 {
+     color: black;
+     text-align: center;
+     padding: 50px;
+  }
+
 /*About Me section*/
 #about h2 {
     color: rgb(86, 204, 240);
@@ -39,7 +45,7 @@ nav a{
 
 .about-me {
     width: 800px;
-    margin: 180px auto;
+    margin: 10px auto;
     text-align: center;
     padding: 10px;
     border: solid;
