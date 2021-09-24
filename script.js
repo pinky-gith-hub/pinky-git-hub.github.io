@@ -46,6 +46,6 @@ toggleBtn.addEventListener("click", function (){
     try {
         toggleLight();
     } catch (error) {
-       alert("There is en error") 
+       console.log("There is en error") 
     }
 });
