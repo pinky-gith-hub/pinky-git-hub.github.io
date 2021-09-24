@@ -40,4 +40,12 @@ function toggleLight() {
     }
 }
 
-toggleBtn.addEventListener("click", toggleLight);
+//toggleBtn.addEventListener("click", toggleLight);
+
+toggleBtn.addEventListener("click", function (){
+    try {
+        toggleLight();
+    } catch (error) {
+       alert("There is en error") 
+    }
+});
