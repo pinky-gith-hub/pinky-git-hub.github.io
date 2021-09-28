@@ -10,7 +10,6 @@ body{
 
 /*navbar section*/
 nav{
-    background-color: rgb(12, 12, 15);
     text-align: center; 
     padding: 20px;  
     display: flex;
@@ -30,11 +29,17 @@ nav a{
       color: rgb(139, 233, 151);
   }
 
+#home  {
+    background-image: url("images/wakeUp.jpg");
+    background-size: cover;
+    height: 400px;
+  }
+  
 #home h1 {
      color: rgb(149, 124, 238);
      text-align: center;
-     padding: 50px;
-     font-size: 30px;
+     padding: 20px;
+     font-size: 50px;
   }
 
 /*About Me section*/
@@ -46,11 +51,11 @@ nav a{
 
 .about-me {
     width: 800px;
-    margin: 10px auto;
+    margin: 200px auto;
     text-align: center;
     padding: 10px;
     border: solid;
-    background-color: hsl(0, 4%, 5%);
+    background-image: url(images/ston.jpg);
 }
 
 .my-text {
@@ -74,7 +79,7 @@ nav a{
     text-align: center;
     padding: 10px;
     border: solid;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 4%, 5%);
 }
 
 /*My work section*/
