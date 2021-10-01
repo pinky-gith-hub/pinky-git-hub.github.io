@@ -5,7 +5,7 @@
 
 /*Main body part*/
 body{
-  background:linear-gradient(to bottom, #6dc2df 0%, #a59ca5 80%);
+  background:linear-gradient(to bottom, #0f253b 0%, #322a4d 80%);
 }
 
 /*navbar section*/
@@ -36,11 +36,19 @@ nav a{
   }
   
 #home h1 {
-     color: rgb(149, 124, 238);
+     color: rgb(79, 182, 241);
      text-align: center;
      padding: 20px;
      font-size: 50px;
+     animation-name: example;
+     animation-duration: 20s;
   }
+
+  @keyframes example {
+    from {color: rgb(102, 231, 167);}
+    to {color: rgb(79, 182, 241);}
+  }
+
 
 /*About Me section*/
 #about h2 {

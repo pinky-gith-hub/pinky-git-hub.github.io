@@ -1,3 +1,23 @@
+var myImage = document.getElementsByClassName("my-img")[0];
+var myText = document.getElementsByClassName("my-text")[0];
+var myPrevBtn = document.getElementById("my-prev");
+var myNextBtn = document.getElementById("my-next");
+
+function prevBtn() {
+    myImage.src = "images/IMG_0442.JPG";
+    //myText.innerHTML = "Nothing now";
+}
+
+function nextBtn() {
+    myImage.src = "images/myDaughter.jpg";
+    //myText.innerHTML = "Shezdah, my daughter. She is three years old. She is going to förskolan. She has so many friends and she likes to play whole day. She loves her family members a lot. She has two cousin brothers.";
+
+
+}
+
+myNextBtn.addEventListener("click",nextBtn);
+myPrevBtn.addEventListener("click",prevBtn);
+
 // var myBtn1 = document.getElementById("btn1");
 // var myBtn2 = document.getElementById("btn2");
 var changeHeadline = document.getElementsByTagName("h3")[0];
